@@ -2709,7 +2709,7 @@ class bloqueada(tk.Frame):
 
         master2 = master
 
-        caminho_imagem_fundo='imagens/imagen_fundo_bloqueio.jpeg'
+        caminho_imagem_fundo='imagens/imagem_app/imagen_fundo_bloqueio.jpeg'
         self.image_2 = Image.open(caminho_imagem_fundo)
         self.photo_2 = ImageTk.PhotoImage(self.image_2.resize((master.winfo_screenwidth(),master.winfo_screenheight())))#master.winfo_screenwidth(),master.winfo_screenheight())))
         self.imagem = tk.Label(tests,image = self.photo_2)

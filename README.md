@@ -3,17 +3,23 @@ Este é um script com interface gráfica em python, no qual podemos registrar ve
 Utilizar a biblioteca tkinter para criar o frontend , reproduz sons com a biblioteca pygame , salva os dados localmente com a biblioteca SQLite , exibe imagens com a biblioteca Pillow
 
 ### *Fácil acesso ao clientes*
-<div align="center">
-<img src="https://github.com/Lucas836-hub/Calculadora-de-escada/assets/70550900/25a302aa-d144-4245-a3c7-0a15abdd5a11"  height="550px" />
-</div>
 
-<div align="center">
-<img src="https://github.com/Lucas836-hub/ap-icativos-de-vendas/assets/70550900/64ec216a-c28d-40fd-abe3-b88d8903ff8c"  height="550px" />
-</div>
 
-<div align="center">
-<img src="https://github.com/Lucas836-hub/ap-icativos-de-vendas/assets/70550900/5db45a6f-e488-44bc-b495-cecfac58e7f7"  height="550px" />
-</div>
+<div style="display: flex; justify-content:space-between;">
+            <figure style="text-align:center; flex:1;">
+                <img src="https://github.com/Lucas836-hub/Calculadora-de-escada/assets/70550900/25a302aa-d144-4245-a3c7-0a15abdd5a11" height="400px width="200px" />
+                <figcaption styles="text-align: center;">.......</figcaption>
+            </figure>
+            <figure style="text-align:center; flex:1;">
+                <img src="https://github.com/Lucas836-hub/ap-icativos-de-vendas/assets/70550900/64ec216a-c28d-40fd-abe3-b88d8903ff8c" height="400px width="200px"/>
+                <figcaption styles="text-align: center;">........</figcaption>
+            </figure>
+          <figure style="text-align:center; flex:1;">
+                <img src="https://github.com/Lucas836-hub/ap-icativos-de-vendas/assets/70550900/5db45a6f-e488-44bc-b495-cecfac58e7f7" height="400px width="200px"/>
+                <figcaption styles="text-align: center;"></figcaption>
+            </figure>
+        </div>
+
 
 ### *Registro de produtos*
 <div align="center">

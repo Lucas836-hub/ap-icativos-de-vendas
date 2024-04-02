@@ -1,5 +1,6 @@
 # <div align="center"> *Aplicativo de Vendas* </div>
 Este é um script com interface gráfica em python, no qual podemos registrar vendas , dividas e dados de clientes 
+Utilizar a biblioteca tkinter para criar o frontend , reproduz sons com a biblioteca pygame , salva os dados localmente com a biblioteca SQLite , exibe imagens com a biblioteca Pillow
 
 ### *Fácil acesso ao clientes*
 <div align="center">

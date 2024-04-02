@@ -1,0 +1,4 @@
+pygame
+db-sqlite3
+tk
+Pillow

@@ -2,6 +2,9 @@
 Este é um script com interface gráfica em python, no qual podemos registrar vendas , dividas e dados de clientes 
 Utilizar a biblioteca tkinter para criar o frontend , reproduz sons com a biblioteca pygame , salva os dados localmente com a biblioteca SQLite , exibe imagens com a biblioteca Pillow
 
+Feito 100% pelo pydroid 👨🏽‍💻
+https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
+
 ### *Fácil acesso ao clientes*
 
 

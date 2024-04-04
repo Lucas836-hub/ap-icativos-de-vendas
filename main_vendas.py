@@ -41,19 +41,19 @@ try:
 
     banco.commit()
 
-    cursor.execute("CREATE TABLE produtos(id char , charque integer , margarina integer , fosforo integer , cream_crack integer , sete_capa integer , suica integer , amanteigada integer , praeira integer , pasta integer , sabonete integer, oleo integer)")
+    #cursor.execute("CREATE TABLE produtos(id char , charque integer , margarina integer , fosforo integer , cream_crack integer , sete_capa integer , suica integer , amanteigada integer , praeira integer , pasta integer , sabonete integer, oleo integer)")
 
-    banco.commit()
+    #banco.commit()
 
     cursor.execute("CREATE TABLE mais(id char,devendo char , data_criacao char , data_receber char, valor_total real)")
 
         #   PREÇOS
 
     cursor.execute("CREATE TABLE preço(nome char, n_tabela char ,valor real) ")
-    prodito=[["Charque","Margarina","Fósforo", "Cream Crack","Sete Capa","Bolacha Suíca", "Bolacha Amanteigada", "Bolacha Praeira", "Pasta de Dente" , "Sabonete de arueira", "Oléo"] , ["charque","margarina","fosforo", "cream_crack","sete_capa","suica", "amanteigada", "praeira", "pasta" , "sabonete", "oleo"],[80,80,50,50,3,3,3,3,15,15,70]]
+    #prodito=[["Charque","Margarina","Fósforo", "Cream Crack","Sete Capa","Bolacha Suíca", "Bolacha Amanteigada", "Bolacha Praeira", "Pasta de Dente" , "Sabonete de arueira", "Oléo"] , ["charque","margarina","fosforo", "cream_crack","sete_capa","suica", "amanteigada", "praeira", "pasta" , "sabonete", "oleo"],[80,80,50,50,3,3,3,3,15,15,70]]
 
-    for a1 in range(0,len(prodito[0])):
-    	cursor.execute(f"INSERT INTO preço('nome','n_tabela',valor) VALUES (?,?,?)",(prodito[0][a1],prodito[1][a1],prodito[2][a1]))
+    #for a1 in range(0,len(prodito[0])):
+    	#cursor.execute(f"INSERT INTO preço('nome','n_tabela',valor) VALUES (?,?,?)",(prodito[0][a1],prodito[1][a1],prodito[2][a1]))
     	banco.commit()
 
 
